@@ -78,7 +78,6 @@ TN = confusion[0, 0]
 precision = TP / (TP + FP)
 # tpr is the same as recall
 recall = TP / (TP + FN)
-FPR = FP / (FP+ TN)
 f1_score = 2 * (precision * recall) / (precision + recall)
 RAND_INDEX = (TP + TN)/(TP + TN + FP + FN)
 
